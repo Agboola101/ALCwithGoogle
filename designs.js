@@ -4,7 +4,7 @@ var submission = document.getElementById('inputsubmit');
 
 // Function to  make the grid based on use
 function makeGrid() {
-    //Create empty space for grid
+    //To Create empty space for grid
     grid.innerHTML = '';
     //  values for rows and columns
     var gridrows = document.getElementById('input_height').value;
