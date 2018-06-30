@@ -18,4 +18,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 click the link below to see the Pixel Art Maker
 
-https://agboola101.github.io/ALCwithGoogle/
+https://agboola101.github.io/my-pixel-artmaker/
