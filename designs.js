@@ -2,16 +2,15 @@
 var grid = document.getElementById('pixel_canvas');
 var submission = document.getElementById('inputsubmit');
 
-// This Function is to  make the grid based on user input
+// Function to  make the grid based on use
 function makeGrid() {
     //Create empty space for grid
     grid.innerHTML = '';
-    //   Get values for rows and columns from user input
-    
+    //  values for rows and columns
     var gridrows = document.getElementById('input_height').value;
     var gridcols = document.getElementById('input_width').value;
     var tbody = document.createElement('tbody');
-    //This Will Change color on click
+    //color change on click
     var color = document.getElementById("colorPicker");
     var addColor = function (cell) {
         // This will Put the selected color on click
@@ -44,7 +43,7 @@ function makeGrid() {
 }
 
 
-// Use this Call the function to make the grid and prevent the page from reloading when Submit button is clicked
+//  preventing the page from reloading when Submit is clicked
 submission.addEventListener('click', function(evt){
     evt.preventDefault();
     makeGrid();
